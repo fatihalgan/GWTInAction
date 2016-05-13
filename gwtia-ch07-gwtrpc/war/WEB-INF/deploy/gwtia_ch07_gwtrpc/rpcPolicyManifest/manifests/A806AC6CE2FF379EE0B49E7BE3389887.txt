@@ -1,0 +1,2 @@
+serviceClass: com.manning.gwtia.ch07.shared.TwitterService
+path: F88C06CC15A213D62BBBF4D10CCBD7C0.gwt.rpc

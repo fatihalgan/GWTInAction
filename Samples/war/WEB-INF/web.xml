@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<!-- TODO: Optionally add a <welcome-file-list> tag to display a welcome file. -->
+	<servlet>
+		<servlet-name>primesServlet</servlet-name>
+		<servlet-class>com.packtpub.gwtbook.hellogwt.server.PrimeServiceServiceImpl</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>liveSearchServlet</servlet-name>
+		<servlet-class>com.packtpub.gwtbook.samples.server.LiveSearchServiceImpl</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>pwStrengthServlet</servlet-name>
+		<servlet-class>com.packtpub.gwtbook.samples.server.PasswordStrengthServiceImpl</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>autoFormFillServlet</servlet-name>
+		<servlet-class>com.packtpub.gwtbook.samples.server.AutoFormFillServiceImpl</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>dynamicListsServlet</servlet-name>
+		<servlet-class>com.packtpub.gwtbook.samples.server.DynamicListServiceImpl</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>pageableDataServlet</servlet-name>
+		<servlet-class>com.packtpub.gwtbook.samples.server.PageableDataServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>liveSearchServlet</servlet-name>
+		<url-pattern>/Samples/LiveSearchService</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>primesServlet</servlet-name>
+		<url-pattern>/Samples/PrimesService</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>pwStrengthServlet</servlet-name>
+		<url-pattern>/Samples/PwStrengthService</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>autoFormFillServlet</servlet-name>
+		<url-pattern>/Samples/AutoFormFillService</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>pageableDataServlet</servlet-name>
+		<url-pattern>/Samples/PageableDataService</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>dynamicListsServlet</servlet-name>
+		<url-pattern>/Samples/DynamicListsService</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+    	<welcome-file>HelloGWT.html</welcome-file>
+  	</welcome-file-list>
+</web-app>

@@ -1,0 +1,4 @@
+<module>
+    <stylesheet src="CSS/FlexTable.css"/>
+    <servlet path="/loginService" class="org.gwtbook.server.LoginServlet"/>
+</module>

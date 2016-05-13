@@ -1,0 +1,2 @@
+serviceClass: com.manning.gwtia.ch05.client.cssresource.ResourceService
+path: C234EC5756308B6B6AE1062049B86A58.gwt.rpc

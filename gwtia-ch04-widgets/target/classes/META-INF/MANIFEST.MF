@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Title: gwtia-ch04-widgets
+Implementation-Version: 1.0
+Built-By: falga
+Implementation-Vendor-Id: com.manning.gwtia
+Build-Jdk: 1.8.0_92
+Created-By: Maven Integration for Eclipse
+

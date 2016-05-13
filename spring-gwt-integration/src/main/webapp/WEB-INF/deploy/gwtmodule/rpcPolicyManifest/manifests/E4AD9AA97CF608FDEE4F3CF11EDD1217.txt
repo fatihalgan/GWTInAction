@@ -1,0 +1,2 @@
+serviceClass: org.krams.tutorial.shared.GreetingService
+path: 068992911E48B1546420F6B3AE9BA8C1.gwt.rpc

@@ -1,0 +1,2 @@
+# Module gwtia_ch06_uibinder
+# RPC service class, partial path of RPC policy file

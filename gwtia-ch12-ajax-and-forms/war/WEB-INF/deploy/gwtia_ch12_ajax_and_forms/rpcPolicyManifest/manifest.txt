@@ -1,0 +1,2 @@
+# Module gwtia_ch12_ajax_and_forms
+# RPC service class, partial path of RPC policy file

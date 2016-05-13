@@ -1,0 +1,37 @@
+.login-loginPanel{
+	width: 100%;
+	height: 100%;
+	background: lightblue;
+}
+
+.login-userName{
+	width: 70px;
+	font-size: 10pt;
+}
+
+.login-password{
+	width: 70px;
+	font-size: 10pt;
+}
+
+.login-loggedInPanel{
+	width: 100%;
+	height: 100%;
+	background: lightblue;
+}
+
+.login-loggedInFrame{
+	width: 80px;
+	height: 100px;
+}
+
+.login-errorPanel{
+	width: 100%;
+	height: 100%;
+	background: red;
+}
+
+.login-visiblePanel{
+	width: 90px;
+	height: 130px;
+}

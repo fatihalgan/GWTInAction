@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>XmlVideoProxy</servlet-name>
+		<servlet-class>com.manning.gwtia.ch12.server.XmlVideoProxyServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>XmlVideoProxy</servlet-name>
+		<url-pattern>*.proxy</url-pattern>
+	</servlet-mapping>
+
+</web-app>

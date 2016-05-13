@@ -1,0 +1,2 @@
+# Module gwtia_ch05_clientbundles
+# RPC service class, partial path of RPC policy file

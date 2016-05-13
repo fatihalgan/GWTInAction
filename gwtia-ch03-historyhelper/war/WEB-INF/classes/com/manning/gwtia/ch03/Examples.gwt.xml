@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.7.0//EN" "http://google-web-toolkit.googlecode.com/svn/tags/2.7.0/distro-source/core/src/gwt-module.dtd">
+<module rename-to="gwtia_ch03_historyhelper">
+	<inherits name="com.google.gwt.user.User" />
+
+	<!-- Use the standard theme for widgets 
+		If we didn't include this, then the drag handles in the split layout
+		panel example wouldn't be there (unless we wrote our own CSS for them.)-->
+	<inherits name='com.google.gwt.user.theme.standard.Standard' />
+
+	<source path="client" />
+	<entry-point class="com.manning.gwtia.ch03.client.Examples"></entry-point>
+</module>

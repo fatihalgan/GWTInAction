@@ -1,0 +1,207 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #111fff;
+	background-image:url("../DashboardBackground.jpg");
+}
+
+.gwt-MenuBar {
+	background: #66a;
+	background-image:url("../BrushedSteelGrayBackground.jpg");
+	border-bottom: 2px solid #000;
+	cursor: pointer;
+}
+
+.gwt-MenuBar .gwt-MenuItem {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color: #fff;
+	font-weight: bold;
+	padding-right: 10px;
+}
+
+.submenu .gwt-MenuItem-selected { 
+	background: lightblue;
+}
+
+.submenu {
+	background: #fff;
+	border: 1px solid #000;
+	padding: 5px;
+}
+			
+.submenu .gwt-MenuItem {
+	color: #000;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding-right: 10px;
+}
+
+.submenu .image {
+    float: right;
+    width: 15px;
+    height: 15px;
+}
+
+.submenu .holder {
+   width: 130px;
+}
+
+
+.localemenu {
+	background: #fff;
+	border: 1px solid #000;
+	padding: 5px;
+}
+			
+.localemenu .gwt-MenuItem {
+	color: #000;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding-right: 10px;
+}
+
+.localemenu .gwt-MenuItem-selected { 
+	background: lightgreen;
+}
+
+.localemenu .image {
+    float: right;
+    width: 20px;
+    height: 20px;
+}
+
+.localemenu .holder {
+   width: 100px;
+}
+
+.gwt-DialogBox {
+	border: 2px ridge #eee;
+	background: #eee
+}
+
+.trash {
+	float: right;
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+}
+
+.Caption {
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	padding-left: 2px;
+	background: #BA0032;
+	border-bottom: 1px solid #000;
+	color: #E5A352;
+	font-weight: bold;
+	width: 100%;
+	cursor: pointer;
+}
+
+.selectedDashboardComponent .Caption {
+	background: #BA0032;
+	color: #FDFF4F;
+}
+
+.clock {
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding: 3px;
+}
+
+.dashboard-Name{
+    font-family: helvetica;
+    background: lightyellow;
+    width: 250px;
+}
+
+.editableLabel-buttons {
+   width: 100px;
+   height: 20px;
+   font-family: arial;
+   font-size: 10px;
+   color: #fff;
+   text-transform: uppercase;
+}
+
+.editableLabel-confirm{
+   background: #0c0;
+}
+
+.editableLabel-cancel{
+   background: #c00;
+}
+
+.about-message{
+   width: 355px;
+   height: 235px;
+}
+
+.toolTip{
+   width: 150px;
+   background: lightyellow;
+   color: black;
+   font-family: arial;
+   font-size: 10px;
+}
+
+.slider-colour-swatch{
+	cursor: hand;
+}
+
+.slider-colour-hue{
+	cursor: hand;
+}
+
+.splashWindow{
+	width: 500px;
+	height: 350px;
+}
+
+.info-DialogBox {
+	border: 2px ridge #eee;
+	background: #ccccff
+	font-family: Arial, sans-serif;
+	font-size: 8px;
+}
+
+.info-DialogBox .Caption {
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	padding-left: 2px;
+	background: #aaaaff;
+	border-bottom: 1px solid #000;
+	color: #000000;
+	font-weight: bold;
+	width: 100%;
+	cursor: pointer;
+}
+
+.info-DialogBox .ButtonHolder{
+	width: 100%;
+	background: #ccccff;
+}
+
+.componentInfo-Label{
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	width: 400px;
+	height:100%;
+	background: #ccccff;
+}
+
+.book-advert{
+	width: 60px;
+	height: 80px;
+	cursor: pointer;
+}
+
+.gwt-TabPanelBottom {
+	height:98%;
+	width: 99%;
+}

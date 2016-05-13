@@ -1,0 +1,5 @@
+<module>
+    <inherits name='com.google.gwt.http.HTTP'/>
+	<servlet path="/server-status" class="org.gwtbook.server.ServerStatusImpl"/>
+	<stylesheet src="CSS/ServerStatus.css"/>
+</module>

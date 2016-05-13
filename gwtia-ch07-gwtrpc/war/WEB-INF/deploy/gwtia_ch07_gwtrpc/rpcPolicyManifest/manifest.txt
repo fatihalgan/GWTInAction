@@ -1,0 +1,2 @@
+# Module gwtia_ch07_gwtrpc
+# RPC service class, partial path of RPC policy file

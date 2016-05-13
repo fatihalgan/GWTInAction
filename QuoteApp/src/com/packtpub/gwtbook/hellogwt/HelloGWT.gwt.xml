@@ -1,0 +1,9 @@
+<module rename-to="HelloGWT">
+
+	<!-- Inherit the core Web Toolkit stuff.                  -->
+	<inherits name="com.google.gwt.user.User"/>
+	
+	<!-- Specify the app entry point class.                   -->
+	<entry-point class='com.packtpub.gwtbook.hellogwt.client.HelloGWT'/>
+	<source path='client' />
+</module>

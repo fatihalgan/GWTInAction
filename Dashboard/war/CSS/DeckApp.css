@@ -1,0 +1,10 @@
+.gwt-StackPanel {
+}
+
+.gwt-StackPanel .gwt-StackPanelItem { 
+   background-color: darkgray;
+}
+
+.gwt-StackPanel .gwt-StackPanelItem-selected { 
+   background-color: lightyellow;
+}

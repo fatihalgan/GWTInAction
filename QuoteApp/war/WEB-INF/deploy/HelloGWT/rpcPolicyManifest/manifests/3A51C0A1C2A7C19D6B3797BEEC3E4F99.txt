@@ -1,0 +1,2 @@
+serviceClass: com.packtpub.gwtbook.hellogwt.client.RandomQuoteService
+path: 8EE6408258E0FD6A1D1A0D929268D60A.gwt.rpc

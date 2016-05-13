@@ -1,0 +1,40 @@
+.server-status { 
+  width: 200px; 
+  height: 200px;
+  border: 1px solid black;
+}
+
+.server-status td { 
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.server-status .title-bar { 
+  text-align: center;
+  background: #666;
+  padding: 2px 0;
+  color: white;
+  font-weight: bold;
+}
+
+.server-status .stats-grid { 
+  width: 200px;
+}
+
+.server-status .stats-grid td { 
+  border-bottom: 1px solid #ccc;
+}
+
+.server-status .stat-name {  
+  font-weight: bold;
+}
+
+.server-status .stat-value { 
+  text-align: right;
+}
+
+.server-status .last-updated,
+ .server-status .update-button {
+  font-size: 10px;
+  margin: 0 5px;
+}

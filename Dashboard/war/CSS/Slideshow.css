@@ -1,0 +1,53 @@
+.slideshow-Title{
+	font-size: 12pt;
+    color: blue;
+    text-transform: uppercase;
+	text-align: center;
+	font-family: arial;
+}
+
+.slideshow-Image{
+	width: 300px;
+	height: 200px; 
+}
+.slideshow-Name{
+	font-size: 8pt;
+    color: blue;
+    text-transform: uppercase;
+	text-align: center;
+	font-family: arial;
+}
+
+.slideshow-Left{
+   width: 0px;
+   height: 100%;
+   background: #cccccc;
+}
+.slideshow-Right{
+   width: 0px;
+   height: 100%;
+   background: #cccccc;
+}
+
+
+.slideshow-Panel{
+   width: 300px;
+   height: 220px;
+   background: lightblue;
+}
+
+.slideshow-navPanel{
+   width: 100%;
+   background: lightblue;
+   font-size: 8pt;
+   color: blue;
+   text-transform: uppercase;
+}
+
+.slideshow-navPanel-Left{
+   text-align: left;
+}
+
+.slideshow-navPanel-Right{
+   text-align: right;
+}

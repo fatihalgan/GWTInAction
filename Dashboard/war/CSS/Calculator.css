@@ -1,0 +1,31 @@
+.calculator-Button{
+   width: 25px;
+   height: 25px;
+   font-family: arial;	
+   color: green;
+   background: lightblue;
+}
+
+.calculator-Button-selected{
+   width: 25px;
+   height: 25px;
+   font-family: arial;	
+   color: red;
+   background: blue;
+}
+
+.calculator-Keypad{
+   background: lightblue;
+}
+
+.calculator-Display{
+	background: black;
+	color: #33ff33;
+	text-align: right;
+	font-size: 14pt;
+	width: 120px;
+}
+
+.calculator-Calculator{
+	background: lightblue;
+}

@@ -1,0 +1,10 @@
+.gwt-HorizontalSplitPanel .splitter {
+  width: 8px;
+  background-color: #000000;
+  	cursor: w-resize;
+}
+
+.gwt-HorizontalSplitPanel {
+	border: 2px solid #C3D9FF;
+	margin: 2px;
+}

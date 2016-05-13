@@ -1,0 +1,50 @@
+<module rename-to="Dashboard">
+
+	<!-- Inherit the core Web Toolkit stuff.                  -->
+	<inherits name="com.google.gwt.user.User"/>
+	<inherits name="com.google.gwt.i18n.I18N"/>
+	<inherits name="com.google.gwt.http.HTTP"></inherits>
+	<inherits name="com.google.gwt.xml.XML"/>
+	<inherits name="org.gwtwidgets.WidgetLibrary"/>
+
+	<inherits name="org.gwtbook.client.ui.calculator.Calculator"/>
+    <!-- <inherits name="org.gwtbook.client.ui.addressBook.AddressBook"/>    
+    <inherits name="org.gwtbook.client.ui.book.Book"/>    
+    <inherits name="org.gwtbook.client.ui.login.Login"/>    
+    <inherits name="org.gwtbook.client.ui.googlevideosearch.GoogleVideoSearch"/>   
+    <inherits name="org.gwtbook.client.ui.googlesearch.GoogleSearch"/>           
+    <inherits name="org.gwtbook.client.ui.slideshow.Slideshow"/>
+    <inherits name="org.gwtbook.client.ui.DashboardUI"/>
+    <inherits name="org.gwtbook.client.ui.serverstatus.ServerStatus"/>
+    <inherits name="org.gwtbook.client.ui.deckapp.DeckApp"/>    
+    <inherits name="org.gwtbook.client.ui.yahoosearch.YahooSearch"/>    
+    <inherits name="org.gwtbook.client.ui.flextableexample.FlexTableExample"/>  -->
+    
+    <!-- Specify the app entry point class.-->
+	<entry-point class='org.gwtbook.client.Dashboard'/>
+	
+	<extend-property name="locale" values="tr"/>
+	<extend-property name="locale" values="en_US"/>
+	
+	
+    <define-property name="externalvisibility" values="intranet,internet"/>
+    <property-provider name="externalvisibility">
+    <![CDATA[
+       try{
+          var externalvisibility = __gwt_getMetaProperty("externalvisibility");
+          if (externalvisibility==null){
+             externalvisibility = "internet";
+          }
+          return externalvisibility;
+       } catch (e) {
+          return "internet";
+       }
+    ]]>
+    </property-provider>
+	
+	<generate-with class="org.gwtbook.rebind.DashboardCompositeGenerator">
+       <when-type-assignable class="org.gwtbook.client.ui.DashboardComposite"/>
+    </generate-with>  
+	
+  	<source path="client"></source>
+</module>

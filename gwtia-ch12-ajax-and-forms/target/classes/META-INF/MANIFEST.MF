@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Title: gwtia-ch12-ajax-and-forms
+Implementation-Version: 1.0
+Built-By: Fatih Algan
+Implementation-Vendor-Id: com.manning.gwtia
+Build-Jdk: 1.8.0_45
+Created-By: Maven Integration for Eclipse
+
